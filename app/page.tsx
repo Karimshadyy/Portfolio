@@ -6,7 +6,7 @@ import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
 export default function Home() {
-  const [isOpen, setIsopen] = useState(true);
+  const [isOpen, setIsopen] = useState(false);
 
   const toggle = () => {
     setIsopen((prev) => !prev);
@@ -115,7 +115,7 @@ export default function Home() {
                 </p>
 
                 {/* Tech Stack Icons */}
-                <div className="flex flex-row items-center gap-4 pt-2">
+                {/* <div className="flex flex-row items-center gap-4 pt-2">
                   {[
                     {
                       src: "/Icons/TypeScript.svg",
@@ -165,7 +165,7 @@ export default function Home() {
                       />
                     </Link>
                   ))}
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -251,7 +251,7 @@ export default function Home() {
               </div> */}
             </div>
 
-            <div className="flex flex-row gap-4 flex-wrap">
+            <div className="flex flex-row gap-4 flex-wrap justify-center md:justify-start">
               {Projects.map((project) => (
                 <Link
                   href={project.URL}
