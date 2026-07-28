@@ -34,9 +34,9 @@ export default function Home() {
       Start: "Aug 2026",
       End: "Dec 2026",
       Desc: "Worked on many internal projects such as responsive ecommerce and informational apps in a collaborative team.",
-      One: "React",
-      Two: "Tailwind",
-      Three: "Typescript",
+      One: "",
+      Two: "",
+      Three: "",
     },
   ];
 
