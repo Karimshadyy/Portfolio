@@ -21,7 +21,7 @@ export default function Home() {
       Server: "Vercel",
       Year: 2026,
       Picture: "hi",
-      URL: "https://portal-eg.vercel.app",
+      URL: "https://portaleg.com",
     },
   ];
 
