@@ -20,8 +20,18 @@ export default function Home() {
       Framework: "React Native",
       Server: "Vercel",
       Year: 2026,
-      Picture: "hi",
+      Picture: "Portal.png",
       URL: "https://portaleg.com",
+    },
+    {
+      id: 2,
+      Name: "OUDÈ",
+      Desc: "Playful Objects for Joyful Homes.",
+      Framework: "Next.js",
+      Server: "Vercel",
+      Year: 2026,
+      Picture: "OUDÈ.png",
+      URL: "https://oude-eg.vercel.app",
     },
   ];
 
@@ -265,7 +275,7 @@ export default function Home() {
 
                     <div className="w-full h-40 rounded-lg my-2 overflow-hidden relative">
                       <Image
-                        src="/Photos/Portal.png"
+                        src={`/Photos/${project.Picture}`}
                         alt="PortalOG"
                         fill
                         className="object-cover"
