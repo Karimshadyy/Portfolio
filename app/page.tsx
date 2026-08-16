@@ -20,7 +20,7 @@ export default function Home() {
       Framework: "React Native",
       Server: "Vercel",
       Year: 2026,
-      Picture: "Portal.png",
+      Picture: "Portal-OG.png",
       URL: "https://portaleg.com",
     },
     {
@@ -30,8 +30,28 @@ export default function Home() {
       Framework: "Next.js",
       Server: "Vercel",
       Year: 2026,
-      Picture: "OUDÈ.png",
+      Picture: "OUDÈ-OG.png",
       URL: "https://oude-eg.vercel.app",
+    },
+    {
+      id: 3,
+      Name: "M. Sarnagawy",
+      Desc: "Physics understood.",
+      Framework: "React",
+      Server: "Vercel",
+      Year: 2026,
+      Picture: "MWael-OG.png",
+      URL: "https://mawel.vercel.app",
+    },
+    {
+      id: 4,
+      Name: "Morjan",
+      Desc: "Fine coral jewelery",
+      Framework: "Next.js",
+      Server: "Vercel",
+      Year: 2026,
+      Picture: "Morgan-OG.png",
+      URL: "https://morjan.vercel.app",
     },
   ];
 
