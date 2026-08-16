@@ -41,7 +41,7 @@ export default function Home() {
       Server: "Vercel",
       Year: 2026,
       Picture: "MWael-OG.png",
-      URL: "https://mawel.vercel.app",
+      URL: "https://mwael.vercel.app",
     },
     {
       id: 4,
